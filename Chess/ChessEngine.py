@@ -6,7 +6,7 @@ class GameState():
         # Board is 8x8  2d list, each element of the list has 2 characters.
         # The first character represents the color of the piece, 'b' or 'w'
         # The second character represents the type of the piece, 'K', 'Q', 'R', 'N', 'p'
-        # "--" - represents an empty spcae with no piece
+        # "--" - represents an empty spcae with no piece.
         self.board = [
             ["bR", "bN", "bB", "bQ", "bK", "bB", "bN", "bR"],
             ["bp", "bp", "bp", "bp", "bp", "bp", "bp", "bp"],
