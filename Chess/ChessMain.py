@@ -17,7 +17,7 @@ def load_images():
         IMAGES[piece] = p.transform.scale(p.image.load("images/" + piece + ".png"), (SQ_SIZE, SQ_SIZE))
 
 # This will be main driver for our code. This will handle user input and updating the graphics
-#Test1
+#Test2
 def main():
     p.init()
 
