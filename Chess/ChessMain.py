@@ -57,7 +57,7 @@ def main():
         p.display.flip()
 
 def drawGameState(screen,gs):
-    drawBoard(screen) # Draw the squares on board
+    drawBoard(screen) # Draw the squares on board.
 
     drawPieces(screen, gs.board) # Draw pieces on top of those squares
 
